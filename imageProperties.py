@@ -9,7 +9,7 @@ from PIL import Image
 from PIL.ExifTags import TAGS
 
 
-def firstTry():
+def displayImgProps():
     imageName = r'E:\personal data e\All DSLR Pictures\5th dec. Bday\IMG_3400.jpg'
     image = Image.open(imageName)
     exifdata = image.getexif()
@@ -26,4 +26,4 @@ def firstTry():
         
 
         
-firstTry()
+displayImgProps()
