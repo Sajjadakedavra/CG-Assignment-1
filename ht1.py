@@ -45,12 +45,11 @@ def clickMe():
     myFig = plot(y_pos, performance, 0.5, objects)
     myFig.savefig(r'C:\Users\Sajjad\Desktop\plot.png')
     
-    top = tk.Toplevel()
-    diagrams = tk.PhotoImage(file=myFig)
-    logolbl= tk.Label(top, image = diagrams)
-    logolbl.grid()
-    
-    tk.mainloop()
+    #top = tk.Toplevel()
+    #diagrams = tk.PhotoImage(file=myFig)
+    #logolbl= tk.Label(top, image = diagrams)
+    #logolbl.grid()
+    #tk.mainloop()
     
  
 label = ttk.Label(window, text = "Enter storage size of images")
